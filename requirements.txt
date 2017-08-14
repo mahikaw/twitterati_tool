@@ -30,7 +30,4 @@ requests-oauthlib==0.8.0
 six==1.4.1
 twython==3.5.0
 urllib3==1.22
-vboxapi==1.0
-Werkzeug==0.11.3
-xattr==0.6.4
-zope.interface==4.1.1
+
