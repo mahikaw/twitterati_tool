@@ -26,8 +26,6 @@ for i in modi.find({}):
                 elif    i['entities']['media'][0]['type']=="video":
                         video_count+=1
         if "extended_tweet" in i:
-                print "mahika mahika mahika mahika mahika mahika"
-                print i
                 if "media" in i['extended_tweet']:
                         if i['extended_tweet']['media'][0]['type']=="photo":
                                 image_count+=1
@@ -48,12 +46,10 @@ for i in modi.find({}):
 
         if i['entities']['hashtags']!=[]:
                 access_hash=i['entities']['hashtags'][0]['text']
-                print access_hash
                 if access_hash not in trending:
                         trending[access_hash]=1
                 else:
                         trending[access_hash]=trending[access_hash]+1
-print trending
 c=sorted(trending, key=trending.get,reverse=True)
 d=[]
 flag=0
