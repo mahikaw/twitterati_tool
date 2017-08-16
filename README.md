@@ -7,7 +7,7 @@ A twitter analysis web app which tracks tweets related to A. Kejriwal and N. Mod
 - Charts were made using GoogleCharts API.
 - The website is hosted on a DigitalOcean server.
 
-##Steps to run the webapp locally
+## Steps to run the webapp locally
 
 - Clone the repo.
 - Setup your MongoDB database and name it "tweets_db".
